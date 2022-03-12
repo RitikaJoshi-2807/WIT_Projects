@@ -1,0 +1,91 @@
+<body>
+  <div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">WIT'22 SURVEY FORM</h1>
+    <p id="description" class="description text-center"> Thanks for taking part in this survey </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-data">
+      <label id="name-label" for="name">Name</label><br><br>
+      <input type="text"  id="name" class="type" placeholder="Enter your name">
+    </div>
+    <br>
+    <div class="form-data">
+      <label id="email-label" for="email">Email</label><br><br>
+      <input type="email" name="email" id="email" class="type" placeholder="Enter your Email">
+    </div>
+    <br>
+    <div class="form-data">
+      <label id="age-label" for="age">Age</label>
+      <br><br>
+      <input type="number" name="age" id="age" min="15" max="25" class="type" placeholder="Your Age Here">
+    </div>
+    <br>
+    <div class="form-data">
+      <label for="year">In which year of graduation,you are ?</label>
+      <br><br>
+      <select>
+        <option>Select the year </option>
+        <option value="I" class="type" id="year1">I year</option>
+        <option value="II" class="type" id="year2">II year</option>
+        <option value="III" class="type" id="year3">III year</option>
+        <option value="IV" class="type" id="year4">IV year</option>
+      </select>
+    </div>
+    <br><br>
+    <div class="form-data">
+      <fieldset>
+      <legend>How did you come to know about this fellowship ?</legend>
+      <label>
+        <input type="radio" name="source" value="internet" class="input-radio" id="source1">Internet
+      </label><br>
+      <input type="radio" name="source" value="friends" class="input-radio" id="source2">Friends
+      </label><br>
+    <input type="radio" name="source" value="college" class="input-radio" id="source3">College
+      </label><br>
+  <input type="radio" name="source" value="socialMedia" class="input-radio" id="source4">Social Media
+      </label><br>
+<input type="radio" name="source" value="Teachers" class="input-radio" id="source5">Teachers
+      </label>
+  </fieldset>
+    </div>
+<br>
+<div class="form-data">
+  <fieldset>
+    <legend>What is your Future Goal ? 
+    </legend>
+  <label>
+    <input type="checkbox" name="goal" value="job" class="input-checkbox" id="source1">Job
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="goal" value="webDeveloper" class="input-checkbox" id="source2">Full stack Web Developer
+  </label><br>
+  <label>
+    <input type="checkbox" name="goal" value="startUp" class="input-checkbox" id="source3">Start Up
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="goal" value="freelancing" class="input-checkbox" id="source4">Freelancing
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="goal" value="anythinElse" class="input-checkbox" id="source5">Anything Else
+  </label>
+    </fieldset>
+    <br>
+    <div class="form-data">
+      <label for="experience">Share your experience with WIT so far </label>
+      <br><br>
+      <textarea id="experience" name="experience" rows="10" cols="63" placeholder="Write your experience here..">
+      </textarea>
+  </div>
+  <br>
+  <div class="form-data">
+    <button type="form-data" id="submit" class="submit-button" onclick="count()" >
+      Submit
+    </button>
+  </div>
+  </form>
+</div>
+</body>     
