@@ -1,0 +1,33 @@
+<body>
+  <header class="header">
+    Welcome to Stone Paper Scissor 😊
+  </header>
+
+  <div class="container">
+    
+   <div class="scores">
+     <p>Computer :<span id="computer_score">0</span></p>
+     <p>You :<span id="iser_score">0</span>
+     </p>
+    </div>
+      <div class="rules">
+    <b>RULES:<br>-Rock(👊) beats scissors(✌)<br>-Scissors(✌) beats paper(🖐)<br>-Paper(🖐) beats rock(👊)</b>
+  </div>
+    <div class="weapons">
+        <button onclick="checker('rock')">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQURRXMrcqSwUakqkJlGctmSqvY3HueOSKw3xdDhgGpOwlSaG9gsJ9iBCKh65RE7bjp-v4&usqp=CAU">
+      </button>
+      <button onclick="checker('paper')">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUCmaf-HaltNtvmtB6EG8jCjkbICmErLjlvACv-XM1yXMDVN5Tk_FJOKYdlGNCYaihdBk&usqp=CAU">"
+      </button>
+      <button onclick="checker('scissor')">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfEvI5QqnPXFC3_pDL4sjDNUQhheHN_sZsStpAnIMcK3dWZqXEVfLjTsPiFJPZZ0LGo0&usqp=CAU">
+      </button>
+    </div>
+    <div class="details">
+      <p id="user_choice"></p>
+      <p id="comp_choice"></p>
+      <p id="result"></p>
+    </div>
+  </div>
+</body> 
