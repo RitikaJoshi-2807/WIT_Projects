@@ -1,0 +1,102 @@
+*,
+*:before,
+*:after{
+  box-sizing:border-box;
+}
+.header{
+  text-align:center;
+  font-size:80px;
+  font-weight:30%;
+  color:black;
+  text-shadow:2px 2px 5px blue;
+  
+}
+p{
+  font-family:Lucida Console;
+  font-size:100%;
+  color:blue;
+  text-align:right;
+}
+font{
+  font-size:20px;
+  text-align:justify;
+}
+body{
+  height:100vh;
+  opacity:80%;
+  background-image:
+    linear-gradient(
+      115deg,
+      rgba(50, 50, 138, 0.6),
+      rgba(130, 130, 200, 0.5)
+    ),
+    url('https://t4.ftcdn.net/jpg/03/53/41/23/240_F_353412385_27okKHJ8nF2QpegIgNl359yh9S3B3Qkv.jpg')
+    
+    
+    
+}
+.container{
+  width:60%;
+  background-color:azure;
+  padding-right:40px;
+  padding-left:40px;
+  padding-bottom:1p40;
+  position:absolute;
+  margin-bottom:50%;
+  text-align:center;
+  top:30%;
+  left:20%;
+  border:solid;
+  border-color:blue;
+  border-radius:10px;
+  box-shadow: 20px 20px 50px 10px pink inset;
+}
+.scores{
+  font-size:40%;
+  margin-bottom:50px;
+  text-align:right;
+  color:blue;
+}
+.weapons{
+ 
+  height:5%;
+ width:100px;
+  margin:auto;
+  display:flex;
+ justify-content:space-around; 
+}
+.weapons button{
+  display:inline-block;
+  font-size:5px;
+  cursor:grab; 
+  border-radius:5%;
+  border-color:blue;
+}
+.details{
+  margin-top:30px;
+  text-align:center;
+}
+.scores,details{
+  font-family:'Poppins',sans-serif;
+ font-weight:400;
+ font-size:15px; 
+ 
+}
+
+#result{
+  
+  font-size:20px;
+  text-align:center;
+}
+#user_choice, #comp_choice{
+  font-size:30px;
+  text-align:center;
+  color:black;
+  font-family:Garamond;
+  font-variant: small-caps;
+}
+.rules{
+  text-align:center;
+  padding-bottom:5%;
+  font-size:20px;
+}
